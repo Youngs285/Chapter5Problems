@@ -14,13 +14,16 @@ namespace Chapter5Problems
                 int[] intArray1 = new int[5];
                 int[] nums1 = { 0, 1, 2, 3, 4, 5 };
                 Console.WriteLine(nums1[i]);
+            }
 
-                for (int x = 5; x > 0; --x)
-                {
-                    int[] intArray = new int[5];
-                    int[] nums = { 0, 1, 2, 3, 4, 5 };
-                    Console.WriteLine(nums[x]);
-                }
+            Console.WriteLine(" ");
+
+            for (int x = 5; x >= 0; --x)
+            {
+                int[] intArray1 = new int[5];
+                int[] nums1 = { 0, 1, 2, 3, 4, 5 };
+                Console.WriteLine(nums1[x]);
+
             }
         }
     }
